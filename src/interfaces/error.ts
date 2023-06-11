@@ -1,4 +1,4 @@
 export type IErrorMessage = {
-  path: string
+  path: string | number
   message: string
 }

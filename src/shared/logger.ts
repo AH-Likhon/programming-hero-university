@@ -1,7 +1,6 @@
 import { createLogger, format, transports } from 'winston'
 import path from 'path'
 import DailyRotateFile from 'winston-daily-rotate-file'
-import process from 'process'
 
 const { combine, timestamp, label, printf, prettyPrint } = format
 

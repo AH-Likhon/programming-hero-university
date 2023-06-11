@@ -1,32 +1,26 @@
 import mongoose from 'mongoose'
 import { IErrorMessage } from '../interfaces/error'
+import { IErrorResponse } from '../interfaces/common'
 
 const handleValidationError = (
-  err: mongoose.Error.ValidationError | mongoose.Error.CastError
-) => {
-  let errors: IErrorMessage[] = []
-
-  if (err instanceof mongoose.Error.ValidationError) {
-    errors = Object.values(err.errors).map(el => {
+  err: mongoose.Error.ValidationError
+): IErrorResponse => {
+  const errors: IErrorMessage[] = Object.values(err.errors).map(
+    (el: mongoose.Error.ValidatorError | mongoose.Error.CastError) => {
       return {
         path: el?.path,
         message: el?.message,
       }
-    })
-  } else if (err instanceof mongoose.Error.CastError) {
-    errors = [
-      {
-        path: err?.path,
-        message: err?.message,
-      },
-    ]
+    }
+  )
+
+  const statusCode = 400
+
+  return {
+    statusCode,
+    message: 'Validation Error',
+    errorMessages: errors,
   }
-
-  // Handle the errors or return them as needed
-  // ...
-
-  // Example: Returning the errors
-  return errors
 }
 
 export default handleValidationError

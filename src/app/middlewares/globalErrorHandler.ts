@@ -1,28 +1,54 @@
-import { NextFunction, Request, Response } from 'express'
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-console */
+import { ErrorRequestHandler } from 'express'
 import { IErrorMessage } from '../../interfaces/error'
+import handleValidationError from '../../errors/handleValidationError'
 import config from '../../config'
-// import handleValidationError from '../../errors/handleValidationError'
+import ApiError from '../../errors/ApiError'
+import { errorLogger } from '../../shared/logger'
 
-const globalErrorHandler = (
-  err,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
-  const statusCode = 500
-  const message = 'Something went wrong!'
-  const errorMessage: IErrorMessage[] = []
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  config.env === 'development'
+    ? console.log('Global Error Here', error)
+    : errorLogger.error('Global Production Error Here', error)
 
-  if (err?.name) {
-    // const simplifiedError = handleValidationError(err)
-    // console.log(simplifiedError)
+  let statusCode = 500
+  let message = 'Something went wrong!'
+  let errorMessages: IErrorMessage[] = []
+
+  if (error?.name) {
+    const simplifiedError = handleValidationError(error)
+    statusCode = simplifiedError.statusCode
+    message = simplifiedError.message
+    errorMessages = simplifiedError.errorMessages
+  } else if (error instanceof ApiError) {
+    statusCode = error?.statusCode
+    message = error?.message
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: error?.message,
+          },
+        ]
+      : []
+  } else if (error instanceof Error) {
+    message = error?.message
+    errorMessages = error?.message
+      ? [
+          {
+            path: '',
+            message: error?.message,
+          },
+        ]
+      : []
   }
 
   res.status(statusCode).json({
     success: false,
     message,
-    errorMessage,
-    stack: config.env !== 'production' ? err?.stack : undefined,
+    errorMessages,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   })
   next()
 }
