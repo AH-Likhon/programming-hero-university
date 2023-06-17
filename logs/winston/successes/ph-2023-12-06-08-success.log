@@ -1,0 +1,24 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-12T02:50:10.042Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-12T02:50:10.066Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-12T02:51:36.115Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-12T02:51:36.131Z'
+}
