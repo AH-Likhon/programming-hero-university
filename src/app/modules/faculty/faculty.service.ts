@@ -1,5 +1,5 @@
 import { SortOrder } from 'mongoose';
-import { IFaculty, IFacultyFilters } from './faculty.interface';
+import { IFaculty, IFacultyFilters } from './faculty.interfaces';
 import { Faculty } from './faculty.model';
 import { IPagination } from '../../../interfaces/pagination';
 import { paginationHelpers } from '../../../helpers/paginationHelpers';

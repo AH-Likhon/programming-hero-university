@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import catchAsync from '../../../shared/catchAsync';
 import sendResponse from '../../../shared/responseData';
 import httpStatus from 'http-status';
-import { IFaculty } from './faculty.interface';
+import { IFaculty } from './faculty.interfaces';
 import { FacultyServices } from './faculty.service';
 import pick from '../../../shared/pick';
 import { facultyFilterableFields } from './faculty.constant';
