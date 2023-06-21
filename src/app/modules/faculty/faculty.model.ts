@@ -17,4 +17,7 @@ const FacultyShema = new Schema<IFaculty, FacultyModel>(
   }
 );
 
-export const Faculty = model<IFaculty, FacultyModel>('Faculty', FacultyShema);
+export const AcademicFaculty = model<IFaculty, FacultyModel>(
+  'AcademicFaculty',
+  FacultyShema
+);

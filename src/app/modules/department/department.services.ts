@@ -4,12 +4,14 @@ import { IGenericPagination } from '../../../interfaces/common';
 import { IPagination } from '../../../interfaces/pagination';
 import { departmentSearchableFields } from './department.constant';
 import { IDepartment, IDepartmentFilters } from './department.interfaces';
-import { Department } from './department.model';
+import { AcademicDepartment } from './department.model';
 
 const createDepartment = async (
   payload: IDepartment
 ): Promise<IDepartment | null> => {
-  const result = (await Department.create(payload)).populate('academicFaculty');
+  const result = (await AcademicDepartment.create(payload)).populate(
+    'academicFaculty'
+  );
   return result;
 };
 
@@ -51,13 +53,13 @@ const getDepartments = async (
   const whereConditions =
     andConditions.length > 0 ? { $and: andConditions } : {};
 
-  const result = await Department.find(whereConditions)
+  const result = await AcademicDepartment.find(whereConditions)
     .populate('academicFaculty')
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
 
-  const total = await Department.countDocuments();
+  const total = await AcademicDepartment.countDocuments();
 
   return {
     meta: {
@@ -70,7 +72,9 @@ const getDepartments = async (
 };
 
 const getSingleDepartment = async (id: string): Promise<IDepartment | null> => {
-  const result = await Department.findById(id).populate('academicFaculty');
+  const result = await AcademicDepartment.findById(id).populate(
+    'academicFaculty'
+  );
   return result;
 };
 
@@ -78,14 +82,18 @@ const updateDepartment = async (
   id: string,
   payload: Partial<IDepartment>
 ): Promise<IDepartment | null> => {
-  const result = await Department.findOneAndUpdate({ _id: id }, payload, {
-    new: true,
-  }).populate('academicFaculty');
+  const result = await AcademicDepartment.findOneAndUpdate(
+    { _id: id },
+    payload,
+    {
+      new: true,
+    }
+  ).populate('academicFaculty');
   return result;
 };
 
 const deleteDepartment = async (id: string): Promise<IDepartment | null> => {
-  const result = await Department.findByIdAndDelete(id);
+  const result = await AcademicDepartment.findByIdAndDelete(id);
   return result;
 };
 

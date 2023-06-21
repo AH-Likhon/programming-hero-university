@@ -5,9 +5,9 @@ import sendResponse from '../../../shared/responseData';
 import httpStatus from 'http-status';
 import { IUser } from './user.interface';
 
-const createUserToDB = catchAsync(async (req: Request, res: Response) => {
-  const { user } = await req.body;
-  const result = await UserService.createUser(user);
+const createStudentToDB = catchAsync(async (req: Request, res: Response) => {
+  const { student, ...userData } = req.body;
+  const result = await UserService.createStudent(student, userData);
 
   sendResponse<IUser>(res, {
     statusCode: httpStatus.OK,
@@ -20,5 +20,5 @@ const createUserToDB = catchAsync(async (req: Request, res: Response) => {
 });
 
 export const UserController = {
-  createUserToDB,
+  createStudentToDB,
 };

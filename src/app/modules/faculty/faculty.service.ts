@@ -1,13 +1,13 @@
 import { SortOrder } from 'mongoose';
 import { IFaculty, IFacultyFilters } from './faculty.interfaces';
-import { Faculty } from './faculty.model';
 import { IPagination } from '../../../interfaces/pagination';
 import { paginationHelpers } from '../../../helpers/paginationHelpers';
 import { facultySearchableFields } from './faculty.constant';
 import { IGenericPagination } from '../../../interfaces/common';
+import { AcademicFaculty } from './faculty.model';
 
 const createFaculty = async (payload: IFaculty): Promise<IFaculty | null> => {
-  const result = await Faculty.create(payload);
+  const result = await AcademicFaculty.create(payload);
   return result;
 };
 
@@ -48,12 +48,12 @@ const getFaculties = async (
   const whereConditions =
     andConditions.length > 0 ? { $and: andConditions } : {};
 
-  const result = await Faculty.find(whereConditions)
+  const result = await AcademicFaculty.find(whereConditions)
     .sort(sortConditions)
     .skip(skip)
     .limit(limit);
 
-  const total = await Faculty.countDocuments();
+  const total = await AcademicFaculty.countDocuments();
 
   return {
     meta: {
@@ -66,7 +66,7 @@ const getFaculties = async (
 };
 
 const getSingleFaculty = async (id: string): Promise<IFaculty | null> => {
-  const result = await Faculty.findById(id);
+  const result = await AcademicFaculty.findById(id);
   return result;
 };
 
@@ -74,14 +74,14 @@ const updateFaculty = async (
   id: string,
   payload: Partial<IFaculty>
 ): Promise<IFaculty | null> => {
-  const result = await Faculty.findOneAndUpdate({ _id: id }, payload, {
+  const result = await AcademicFaculty.findOneAndUpdate({ _id: id }, payload, {
     new: true,
   });
   return result;
 };
 
 const deleteFaculty = async (id: string): Promise<IFaculty | null> => {
-  const result = await Faculty.findByIdAndDelete(id);
+  const result = await AcademicFaculty.findByIdAndDelete(id);
   return result;
 };
 

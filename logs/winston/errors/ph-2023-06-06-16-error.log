@@ -1,6 +1,0 @@
-{
-  message: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string. is here',
-  level: 'error',
-  label: 'Right Now!',
-  timestamp: '2023-06-06T10:00:42.731Z'
-}
