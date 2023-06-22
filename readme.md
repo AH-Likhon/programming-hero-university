@@ -1,0 +1,1 @@
+API: https://university-auth-backend-ah-likhon.vercel.app/api/v1

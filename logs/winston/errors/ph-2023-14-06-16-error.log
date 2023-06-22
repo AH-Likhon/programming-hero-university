@@ -1,0 +1,48 @@
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:10:50.244Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:12:04.050Z'
+}
+{
+  message: 'Error: querySrv ENODATA _mongodb._tcp.cluster0.q3g5t.mongodb.net is here',
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:36:32.711Z'
+}
+{
+  message: 'Error: querySrv ECONNREFUSED _mongodb._tcp.cluster0.q3g5t.mongodb.net is here',
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:36:41.657Z'
+}
+{
+  message: 'Error: querySrv ENODATA _mongodb._tcp.cluster0.q3g5t.mongodb.net is here',
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:37:12.505Z'
+}
+{
+  message: 'Error: querySrv ENODATA _mongodb._tcp.cluster0.q3g5t.mongodb.net is here',
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:38:08.553Z'
+}
+{
+  statusCode: 400,
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:40:33.702Z'
+}
+{
+  statusCode: 409,
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-14T10:50:50.423Z'
+}
