@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { SortOrder } from 'mongoose';
+import mongoose, { SortOrder } from 'mongoose';
 import { paginationHelpers } from '../../../helpers/paginationHelpers';
 import { IGenericPagination } from '../../../interfaces/common';
 import { IPagination } from '../../../interfaces/pagination';
@@ -8,6 +8,7 @@ import { studentSearchableFields } from './student.constant';
 import { Student } from './student.model';
 import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
+import { User } from '../user/user.model';
 
 const getAllStudents = async (
   filters: IStudentFilters,
@@ -122,11 +123,37 @@ const updatedStudent = async (
 };
 
 const deleteStudent = async (id: string): Promise<IStudent | null> => {
-  const result = await Student.findByIdAndDelete(id)
-    .populate('academicSemester')
-    .populate('academicDepartment')
-    .populate('academicFaculty');
-  return result;
+  // check if the faculty is exist
+  const isExist = await Student.findOne({ id });
+
+  if (!isExist) {
+    throw new ApiError(httpStatus.NOT_FOUND, 'Faculty not found !');
+  }
+
+  const session = await mongoose.startSession();
+
+  try {
+    session.startTransaction();
+    //delete student first
+    const student = await Student.findOneAndDelete({ id }, { session });
+    // const student = await Student.findOneAndDelete(
+    //   { _id: isExist._id },
+    //   { session }
+    // );
+    if (!student) {
+      throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to delete student');
+    }
+    //delete user
+    await User.deleteOne({ id });
+    await session.commitTransaction();
+    await session.endSession();
+
+    return student;
+  } catch (error) {
+    await session.abortTransaction();
+    await session.endSession();
+    throw error;
+  }
 };
 
 export const StudentService = {

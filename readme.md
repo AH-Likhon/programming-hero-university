@@ -1,1 +1,1 @@
-API: https://university-auth-backend-ah-likhon.vercel.app/api/v1
+API: https://university-auth-backend-eight.vercel.app/api/v1

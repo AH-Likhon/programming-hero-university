@@ -6,8 +6,14 @@ const router = express.Router();
 
 router.post(
   '/create-student',
-  validateRequest(UserValidation.createUserZodSchema),
+  validateRequest(UserValidation.createStudentZodSchema),
   UserController.createStudentToDB
+);
+
+router.post(
+  '/create-faculty',
+  validateRequest(UserValidation.createFacultyZodSchema),
+  UserController.createFacultyToDB
 );
 
 export const UserRoutes = router;

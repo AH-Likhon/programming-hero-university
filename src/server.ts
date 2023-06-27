@@ -2,11 +2,11 @@
 import mongoose from 'mongoose';
 import app from './app';
 import config from './config';
-// import { errorLogger, logger } from './shared/logger';
+import { errorLogger, logger } from './shared/logger';
 import { Server } from 'http';
 
 process.on('uncaughtException', error => {
-  console.error(error);
+  errorLogger.error(error);
   process.exit(1);
 });
 
@@ -15,21 +15,21 @@ let server: Server;
 async function main() {
   try {
     await mongoose.connect(config.db_url as string);
-    console.info('Database connection established');
+    logger.info('Database connection established');
 
     server = app.listen(config.port, () => {
-      console.info(`${config.port} is working`);
+      logger.info(`${config.port} is working`);
     });
   } catch (error) {
-    console.error(`${error} is here`);
+    logger.error(`${error} is here`);
   }
 
   process.on('unhandledRejection', error => {
-    // console.log('We are facing unhandle rejection and closing our server....')
+    // logger.log('We are facing unhandle rejection and closing our server....')
 
     if (server) {
       server.close(() => {
-        console.error(error);
+        logger.error(error);
         process.exit(1);
       });
     } else {

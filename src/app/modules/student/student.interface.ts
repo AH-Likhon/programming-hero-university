@@ -1,5 +1,5 @@
 import { Model, Types } from 'mongoose';
-import { IFaculty } from '../faculty/faculty.interfaces';
+import { IFaculty } from '../academicFaculty/academicFaculty.interfaces';
 import { IDepartment } from '../department/department.interfaces';
 import { IAcSemester } from '../academicSemester/semester.interface';
 

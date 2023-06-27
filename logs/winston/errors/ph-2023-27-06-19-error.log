@@ -1,0 +1,12 @@
+{
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T13:27:27.639Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  level: 'error',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T13:47:04.325Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

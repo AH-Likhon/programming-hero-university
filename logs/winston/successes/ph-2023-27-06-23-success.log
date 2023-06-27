@@ -1,0 +1,96 @@
+{
+  statusCode: 400,
+  level: 'info',
+  message: 'Global error is here Invalid Semester Code',
+  stack: 'Error: Invalid Semester Code\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.service.ts:16:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.service.ts:4:12)\n' +
+    '    at Object.createSemester (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.service.ts:14:77)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.controller.ts:13:40\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\academicSemester\\semester.controller.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:00:10.723Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:03:08.011Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:03:08.020Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:04:01.305Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:04:01.314Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:04:18.038Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:04:18.047Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:23.454Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:41.779Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:41.792Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:46.901Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:46.910Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:51.432Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:27:51.443Z'
+}

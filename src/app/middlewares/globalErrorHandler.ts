@@ -1,13 +1,13 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-unused-expressions */
 /* eslint-disable no-console */
-import { ErrorRequestHandler, Request, Response } from 'express';
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { IErrorMessage } from '../../interfaces/error';
 import { Error } from 'mongoose';
 import handleValidationError from '../../errors/handleValidationError';
 import config from '../../config';
 import ApiError from '../../errors/ApiError';
-// import { console } from '../../shared/logger';
+import { errorLogger, logger } from '../../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
 import handleCastError from '../../errors/handleCastError';
@@ -15,11 +15,12 @@ import handleCastError from '../../errors/handleCastError';
 const globalErrorHandler: ErrorRequestHandler = (
   error,
   req: Request,
-  res: Response
+  res: Response,
+  next: NextFunction
 ) => {
   config.env === 'development'
-    ? console.log('Global Error Here', error)
-    : console.error('Global Production Error Here', error);
+    ? logger.log('info', 'Global error is here', error)
+    : errorLogger.error('info', 'Global production errr is here', error);
 
   let statusCode = 500;
   let message = 'Something went wrong!';
@@ -69,6 +70,7 @@ const globalErrorHandler: ErrorRequestHandler = (
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : undefined,
   });
+  // next();
 };
 
 export default globalErrorHandler;
