@@ -1,0 +1,66 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:00:25.730Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:00:25.744Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:00:50.874Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:00:50.888Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:03:05.591Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:03:05.603Z'
+}
+{
+  statusCode: 403,
+  level: 'info',
+  message: 'Global error is here Forbidden',
+  stack: 'Error: Forbidden\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\middlewares\\auth.ts:31:15\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\middlewares\\auth.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\middlewares\\auth.ts:4:12)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\middlewares\\auth.ts:10:61\n' +
+    '    at Layer.handle [as handle_request] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\express\\lib\\router\\route.js:144:13)\n' +
+    '    at Route.dispatch (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\express\\lib\\router\\route.js:114:3)\n' +
+    '    at Layer.handle [as handle_request] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\express\\lib\\router\\layer.js:95:5)',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:03:08.969Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:03:20.504Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-06T04:03:20.515Z'
+}

@@ -1,6 +1,0 @@
-{
-  message: 'MongoNetworkError: connect ETIMEDOUT 3.211.236.57:27017 is here',
-  level: 'error',
-  label: 'Right Now!',
-  timestamp: '2023-06-16T04:46:10.017Z'
-}

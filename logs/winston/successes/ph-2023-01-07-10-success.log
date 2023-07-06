@@ -1,0 +1,248 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:00:33.903Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:00:33.912Z'
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: 'user_4' },
+  level: 'info',
+  message: 'Global error is here E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:02:20.186Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  index: 0,
+  code: 11000,
+  keyPattern: { contactNo: 1 },
+  keyValue: { contactNo: 'user_4' },
+  level: 'info',
+  message: 'Global error is here E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }',
+  stack: 'MongoServerError: E11000 duplicate key error collection: university-management.students index: contactNo_1 dup key: { contactNo: "user_4" }\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\operations\\insert.ts:85:25\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection_pool.ts:574:11\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\sdam\\server.ts:368:13\n' +
+    '    at handleOperationResult (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\sdam\\server.ts:502:14)\n' +
+    '    at Connection.onMessage (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection.ts:418:5)\n' +
+    '    at MessageStream.<anonymous> (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\connection.ts:243:56)\n' +
+    '    at MessageStream.emit (node:events:513:28)\n' +
+    '    at processIncomingData (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:187:12)\n' +
+    '    at MessageStream._write (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\cmap\\message_stream.ts:68:5)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:392:12)',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:02:41.017Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:08:26.748Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:08:26.761Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:08:46.378Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:08:46.388Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:09:23.174Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:09:23.186Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:09:39.970Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:09:39.979Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:10:27.234Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:10:27.248Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:16:30.337Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:16:30.350Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:16:35.463Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:16:35.472Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:25:57.474Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:25:57.483Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:26:17.105Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:26:17.119Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:26:49.513Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:26:49.522Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:48:54.583Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:48:54.598Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:17.656Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:17.666Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:51.407Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:51.418Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:58.729Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:49:58.739Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:50:09.990Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:50:10.002Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:50:23.313Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-01T04:50:23.325Z'
+}

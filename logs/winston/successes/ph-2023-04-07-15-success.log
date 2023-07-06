@@ -1,0 +1,515 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:04.214Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:04.269Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:20.101Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:20.120Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:27.481Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:27.499Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:37.461Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:06:37.477Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:16.021Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:16.043Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:42.966Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:42.985Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:51.966Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:07:51.986Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:05.809Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:05.829Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:21.516Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:21.527Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:33.731Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:08:33.760Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:21.458Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:21.484Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:28.297Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:28.317Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:35.732Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:35.744Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:54.194Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:12:54.230Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:14:18.880Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:14:18.892Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:16:41.498Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:16:41.522Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:18:30.787Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:18:30.811Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:19:33.382Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:19:33.405Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:19:46.358Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:19:46.380Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:28:19.253Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:28:19.281Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:23.773Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:23.809Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:28.776Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:28.797Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:53.088Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:32:53.114Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:33:18.393Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:33:18.414Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:37:34.445Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:37:34.468Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:37:58.945Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:37:58.969Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:38:10.989Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:38:11.010Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:40:04.773Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:40:04.787Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:40:54.123Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:40:54.146Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:52:38.611Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:52:38.622Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:58:20.857Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:58:20.879Z'
+}
+{
+  reason: TopologyDescription {
+    type: 'ReplicaSetNoPrimary',
+    servers: Map(3) {
+      'cluster0-shard-00-02.q3g5t.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-02.q3g5t.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 520565939,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 3.213.64.212:27017
+            at connectionFailureError (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ETIMEDOUT 3.213.64.212:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '3.213.64.212',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-01.q3g5t.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-01.q3g5t.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 520565945,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 3.211.236.57:27017
+            at connectionFailureError (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ETIMEDOUT 3.211.236.57:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '3.211.236.57',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      },
+      'cluster0-shard-00-00.q3g5t.mongodb.net:27017' => ServerDescription {
+        address: 'cluster0-shard-00-00.q3g5t.mongodb.net:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 520566053,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ETIMEDOUT 50.16.87.97:27017
+            at connectionFailureError (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:491:14)
+            at TLSSocket.<anonymous> (F:\E\01-Javascript 2021\Next Level Web Development\Mission-3\Programming Hero University\node_modules\mongodb\src\cmap\connect.ts:392:16)
+            at Object.onceWrapper (node:events:628:26)
+            at TLSSocket.emit (node:events:513:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ETIMEDOUT 50.16.87.97:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+            errno: -4039,
+            code: 'ETIMEDOUT',
+            syscall: 'connect',
+            address: '50.16.87.97',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: 'atlas-9jh3ok-shard-0',
+    maxElectionId: new ObjectId("7fffffff00000000000000a6"),
+    maxSetVersion: 7,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined,
+  level: 'info',
+  message: 'Global error is here connect ETIMEDOUT 3.213.64.212:27017',
+  stack: 'MongoServerSelectionError: connect ETIMEDOUT 3.213.64.212:27017\n' +
+    '    at Timeout._onTimeout (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\mongodb\\src\\sdam\\topology.ts:567:30)\n' +
+    '    at listOnTimeout (node:internal/timers:569:17)\n' +
+    '    at processTimers (node:internal/timers:512:7)',
+  label: 'Right Now!',
+  timestamp: '2023-07-04T09:59:50.179Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

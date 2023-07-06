@@ -94,3 +94,15 @@
   label: 'Right Now!',
   timestamp: '2023-06-27T17:27:51.443Z'
 }
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:40:39.457Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-06-27T17:40:39.485Z'
+}

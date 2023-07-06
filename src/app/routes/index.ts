@@ -5,6 +5,9 @@ import { AcademicFacultyRoutes } from '../modules/academicFaculty/academicFacult
 import { DepartmentRoutes } from '../modules/department/department.route';
 import { StudentRoutes } from '../modules/student/student.route';
 import { FacultyRoutes } from '../modules/userFaculty/userFaculty.route';
+import { AuthRoutes } from '../modules/auth/auth.route';
+import { ManagementDepartmentRoutes } from '../modules/managementDepartment/managementDepartment.route';
+import { AdminRoutes } from '../modules/admin/admin.route';
 
 const routes = express.Router();
 
@@ -26,12 +29,24 @@ const collectionOfRoutes = [
     route: DepartmentRoutes,
   },
   {
+    path: '/management-departments',
+    route: ManagementDepartmentRoutes,
+  },
+  {
     path: '/students',
     route: StudentRoutes,
   },
   {
     path: '/faculties',
     route: FacultyRoutes,
+  },
+  {
+    path: '/admins',
+    route: AdminRoutes,
+  },
+  {
+    path: '/auth',
+    route: AuthRoutes,
   },
 ];
 

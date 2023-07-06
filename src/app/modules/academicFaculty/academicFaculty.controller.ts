@@ -21,6 +21,9 @@ const createFacultyToDB = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getFacultiesFromDB = catchAsync(async (req: Request, res: Response) => {
+  // console.log('Hedaers::', req.headers.authorization);
+  // console.log('User::', req.user);
+
   const filters = pick(req.query, facultyFilterableFields);
   const paginationOptions = pick(req.query, paginationFields);
 

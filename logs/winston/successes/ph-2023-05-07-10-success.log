@@ -1,0 +1,570 @@
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:01:09.899Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:01:09.918Z'
+}
+{
+  statusCode: 403,
+  level: 'info',
+  message: 'Global error is here Invalid refresh token',
+  stack: 'Error: Invalid refresh token\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:80:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:72:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:01:21.316Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:03:03.185Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:03:03.196Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Global error is here jwt must be provided',
+  level: 'info',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at Object.module.exports [as verify] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:74:29\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:72:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:03:10.182Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:05:06.792Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:05:06.801Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:05:53.021Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:05:53.035Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:02.598Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:02.611Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:18.707Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:18.721Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:37.555Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:37.564Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:46.840Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:46.848Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Global error is here jwt must be provided',
+  level: 'info',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at Object.module.exports [as verify] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:73:29\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:71:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:06:52.851Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Global error is here jwt must be provided',
+  level: 'info',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at Object.module.exports [as verify] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:73:29\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:71:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:07:05.451Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:07:15.269Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:07:15.278Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:07:23.424Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:07:23.432Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:01.206Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:01.214Z'
+}
+{
+  name: 'JsonWebTokenError',
+  message: 'Global error is here jwt must be provided',
+  level: 'info',
+  stack: 'JsonWebTokenError: jwt must be provided\n' +
+    '    at Object.module.exports [as verify] (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\node_modules\\jsonwebtoken\\verify.js:60:17)\n' +
+    '    at Object.verifyToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\helpers\\jwtHelpers.ts:14:14)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:73:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:71:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:05.547Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:41.181Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:41.190Z'
+}
+{
+  statusCode: 403,
+  level: 'info',
+  message: 'Global error is here Invalid refresh token',
+  stack: 'Error: Invalid refresh token\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:79:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:71:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:08:48.319Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:09:30.660Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:09:30.670Z'
+}
+{
+  statusCode: 403,
+  level: 'info',
+  message: 'Global error is here Invalid refresh token',
+  stack: 'Error: Invalid refresh token\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:79:11\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:4:12)\n' +
+    '    at Object.refreshToken (F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.service.ts:71:46)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:37:36\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at F:\\E\\01-Javascript 2021\\Next Level Web Development\\Mission-3\\Programming Hero University\\src\\app\\modules\\auth\\auth.controller.ts:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:09:37.101Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:10:09.807Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:10:09.817Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:12:39.520Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:12:39.528Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:15:03.724Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:15:03.735Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:15:36.495Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:15:36.509Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:16:21.800Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:16:21.814Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:17:26.844Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:17:26.858Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:17:37.715Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:17:37.730Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:18:15.982Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:18:15.999Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:33:33.527Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:33:33.536Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:34:35.524Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:34:35.533Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:34:45.490Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:34:45.500Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:37:43.136Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:37:43.150Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:37:54.787Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:37:54.796Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:38:01.002Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:38:01.013Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:38:29.073Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:38:29.084Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:39:34.262Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:39:34.275Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:10.589Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:10.598Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:19.075Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:19.084Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:40.771Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:40.780Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:47.047Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:40:47.058Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:41:29.796Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:41:29.805Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:41:57.045Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:41:57.055Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:42:02.166Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:42:02.181Z'
+}
+{
+  message: 'Database connection established',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:45:11.827Z'
+}
+{
+  message: '5000 is working',
+  level: 'info',
+  label: 'Right Now!',
+  timestamp: '2023-07-05T04:45:11.840Z'
+}

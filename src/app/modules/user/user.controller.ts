@@ -6,6 +6,8 @@ import httpStatus from 'http-status';
 import { IUser } from './user.interface';
 
 const createStudentToDB = catchAsync(async (req: Request, res: Response) => {
+  console.log(req.cookies, 'Cookies');
+
   const { student, ...userData } = req.body;
   const result = await UserService.createStudent(student, userData);
 
